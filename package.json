@@ -1,0 +1,23 @@
+{
+   "name": "web-videos",
+   "main": "web-videos.js",
+   "version": "1.0.3",
+   "author": {
+      "url": "https://github.com/tpkn/"
+   },
+   "repository": "https://github.com/tpkn/web-videos",
+   "license": "MIT",
+   "keywords": [
+      "web",
+      "video",
+      "gifsky",
+      "ffmpeg",
+      "mp4",
+      "webm",
+      "gif",
+      "poster",
+      "mp3",
+      "converter",
+      "convert"
+   ]
+}
