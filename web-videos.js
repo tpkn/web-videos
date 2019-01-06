@@ -36,7 +36,7 @@ function webVideos(input_file, options = {}){
       let output_temp = path.join(temp_dir, filename + '_temp');
       // FFmpeg frame sequence mask
       let frames_path = path.join(output_temp, 'frame%09d.png');
-      // Gifsky frame sequence mask
+      // Gifski frame sequence mask
       let frames_mask = path.join(output_temp, '*.png');
 
 
@@ -108,8 +108,8 @@ function webVideos(input_file, options = {}){
                report.push(output_file + '.' + format);
             break;
 
-            // Gif (using Gifsky)
-            case 'gifsky':
+            // Gif (using Gifski)
+            case 'gifski':
                fs.mkdirSync(output_temp);
                cmd =  `(`;
                cmd +=    `${bin} -i "${input_file}" -r ${fps} -f image2 "${frames_path}" && `;
@@ -154,7 +154,6 @@ function webVideos(input_file, options = {}){
          resolve(report);
 
       });
-
    });
 }
 

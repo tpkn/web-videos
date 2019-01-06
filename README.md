@@ -67,8 +67,8 @@ If not set, then using preset `mp4 + webm + poster` with `1000k` video quality, 
 
 
 #### Gif properties   
-  * `format` <**String**>: gif | gifsky
-  * `quality` <**Number**> Gifsky: 1 - 100 (100 = highest)
+  * `format` <**String**>: gif | gifski
+  * `quality` <**Number**> Gifski: 1 - 100 (100 = highest)
   * `fps` <**Number**>: `8` by default
   * `loop` (**Boolean**):
 
@@ -102,7 +102,7 @@ let video = './videos/MONICA BELLUCCI in the Matrix Sequels (HD Movie Scenes).mp
          { format: 'aac', audio: '96k' },
          
          { format: 'gif', fps: 8, loop: true },
-         { format: 'gifsky', quality: 75, fps: 24, loop: false },
+         { format: 'gifski', quality: 75, fps: 24, loop: false },
          { format: 'poster', time: 1, quality: 1 },
       ]
    });
