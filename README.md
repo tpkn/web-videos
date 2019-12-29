@@ -1,5 +1,5 @@
 # Web Videos [![npm Package](https://img.shields.io/npm/v/web-videos.svg)](https://www.npmjs.org/package/web-videos)
-Converts mp4 to a full (almost) pack of formats for web using NodeJS amd FFmpeg
+Converts mp4 to a full (almost) pack of formats for web using NodeJS and FFmpeg
 
 
 Features:
